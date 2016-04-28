@@ -1,0 +1,2 @@
+defmodule FoldingElixir do
+end
