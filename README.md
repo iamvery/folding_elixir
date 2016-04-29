@@ -1,20 +1,12 @@
-# FoldingElixir
+# Folding Elixir
 
-**TODO: Add description**
+Example implementation of `foldr` and `foldl` in Elixir as well as implementations of map/2 from the left and right.
 
-## Installation
+## Benchmark
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+See the difference in performance when folding from left and right to map values in a list.
 
-  1. Add folding_elixir to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:folding_elixir, "~> 0.0.1"}]
-        end
-
-  2. Ensure folding_elixir is started before your application:
-
-        def application do
-          [applications: [:folding_elixir]]
-        end
-
+```
+$ mix deps.get
+$ mix bench
+```
