@@ -1,0 +1,4 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+MapBench	mapping via foldr		50000	3421972
+MapBench	mapping via foldl		1000	2838989
